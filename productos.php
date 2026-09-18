@@ -1,6 +1,6 @@
 <?php
 
-require_once "database.php";
+require_once "config/database.php";
 
 $categoria_id = isset($_GET["categoria"])
     ? intval($_GET["categoria"])

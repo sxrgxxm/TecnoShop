@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require_once "database.php";
+require_once "config/database.php";
 
 $categorias = $conn->query(
     "SELECT * FROM categorias ORDER BY nombre ASC"
